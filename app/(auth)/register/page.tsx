@@ -1,9 +1,12 @@
-import React from 'react'
+import AuthForm from "@/components/Authform";
+import React from "react";
 
 const Page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <AuthForm mode="register" />
+    </div>
+  );
+};
 
-export default Page
+export default Page;
