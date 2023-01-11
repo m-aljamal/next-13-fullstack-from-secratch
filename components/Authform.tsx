@@ -67,11 +67,11 @@ export default function AuthForm({ mode }: { mode: "register" | "signin" }) {
                 <div className="text-lg mb-4 ml-2 text-black/50">Name</div>
                 <Input
                   required
-                  placeholder="First Name"
+                  placeholder="Name"
                   value={formState.name}
                   className="border-solid border-gray border-2 px-6 py-2 text-lg rounded-3xl w-full"
                   onChange={(e) =>
-                    setFormState((s) => ({ ...s, firstName: e.target.value }))
+                    setFormState((s) => ({ ...s, name: e.target.value }))
                   }
                 />
               </div>
